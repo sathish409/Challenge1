@@ -1,5 +1,38 @@
-div skill
+body{
+    background-color: black;
+    
+}
+section
 {
 font-size: bold;
+color: blue;
 
+}
+section h1{
+    color: green;
+}
+section p{
+    color: yellow;
+}
+section > div > p{
+    color: aqua;
+}
+#contact{
+    color: brown;
+    font-size: 25px;
+}
+
+p::after{
+    content: hi;
+    color: orange;
+
+}
+h3::first-letter{
+    color: orange;
+    text-decoration: dotted;
+}
+button:hover{
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
 }
